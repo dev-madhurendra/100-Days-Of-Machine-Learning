@@ -1,8 +1,8 @@
 ## Table of Contents
-1. [What is Machine Learning?](#what-is-machine-learning)
-2. [AI vs ML vs DL](#ai-vs-ml-vs-dl)
+1. [What is Machine Learning?](#1.-what-is-machine-learning)
+2. [AI vs ML vs DL](#2.-ai-vs-ml-vs-dl)
 
-## What is Machine Learning?
+## 1. What is Machine Learning?
 
 Machine learning is a subset of artificial intelligence (AI) that focuses on teaching computers to learn from data and make predictions or decisions without being explicitly programmed to do so. It enables computers to learn patterns from data and utilize that knowledge to perform tasks or make predictions.
 
@@ -22,7 +22,7 @@ Imagine you want to build a program that can predict whether an email is spam or
 
 6. **Evaluation and Improvement:** Evaluate the model's performance using a separate test dataset. Refine the model by adjusting parameters, using different algorithms, or gathering more data.
 
-## AI vs ML vs DL
+## 2. AI vs ML vs DL
 ![AI, ML, DL](https://siddhithakkar.com/wp-content/uploads/2020/02/ai-ml-dl-1-e1582524532998.jpg)
 
 | Aspect          | Artificial Intelligence (AI) | Machine Learning (ML) | Deep Learning (DL) |
