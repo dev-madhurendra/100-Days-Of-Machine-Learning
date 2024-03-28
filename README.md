@@ -1,6 +1,6 @@
 ## Table of Contents
-1. [What is Machine Learning?](#1.-what-is-machine-learning)
-2. [AI vs ML vs DL](#2.-ai-vs-ml-vs-dl)
+1. [What is Machine Learning?](#1-what-is-machine-learning)
+2. [AI vs ML vs DL](#2-ai-vs-ml-vs-dl)
 
 ## 1. What is Machine Learning?
 
