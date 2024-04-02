@@ -1,8 +1,9 @@
-## Table of Contents
+![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/4bace9f0-1faf-4b68-83da-7d204ca223b5)## Table of Contents
 1. [What is Machine Learning?](#1-what-is-machine-learning)
 2. [AI vs ML vs DL](#2-ai-vs-ml-vs-dl)
 3. [Types of Machine Learning](#3-types-of-machine-learning)_
 4. [Key differences between types of machine learning](#4-key-differences-between-types-of-machine-learning)
+5. [Batch Machine Learning vs Online Machine Learning](#5-batch-machine-learning-vs-online-machine-learning)
 
 ## 1. What is Machine Learning?
 
@@ -84,4 +85,5 @@ In summary:
    - **Unsupervised Learning** learns from unlabeled data to discover hidden patterns or structure in the data.
    - **Reinforcement Learning** involves learning optimal actions through interaction with an environment, receiving feedback in the form of rewards or penalties.
       
-
+## 5. Batch Machine Learning vs Online Machine Learning
+   ![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/63ba54b2-8496-4bd4-a5b4-92b312a121be)
