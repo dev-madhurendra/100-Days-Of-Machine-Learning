@@ -57,7 +57,7 @@ In summary:
       - There are no predefined output labels, and the model must find its own way to represent the data.
       - Examples:
         - **Clustering**: Grouping similar data points together. For example, clustering customers based on their purchasing behavior to identify market segments.
-        - **Dimensionality Reduction**: Reducing the number of features in a dataset while preserving its important characteristics. For example, reducing the dimensionality of high-dimensional data like images or text.
+        - **Dimensionality Reduction**: Reducing the number of features in a dataset while preserving its important characteristics. For example, reducing the dimensionality of high-dimensional data like images or text [Blog](https://colah.github.io/posts/2014-10-Visualizing-MNIST/).
         - **Association**: [Beer and Diapers: The Impossible Correlation](https://tdwi.org/articles/2016/11/15/beer-and-diapers-impossible-correlation.aspx) Case Study
    
    3. **Reinforcement Learning**:
@@ -65,7 +65,7 @@ In summary:
       - The agent learns through trial and error, receiving feedback in the form of rewards or penalties for its actions.
       - The goal is to learn a policy—a mapping from states of the environment to actions—that maximizes the cumulative reward over time.
       - Examples:
-        - **Game Playing**: Teaching an AI agent to play games like chess or Go by rewarding good moves and penalizing bad ones.
+        - **Game Playing**: Teaching an AI agent to play games like chess or Go [Full Documentry on Go by Google DeepMind](https://www.youtube.com/watch?v=WXuK6gekU1Y) by rewarding good moves and penalizing bad ones.
         - **Robotics**: Training a robot to perform tasks like navigating a maze or manipulating objects in the environment by rewarding successful actions.
 
 ## 4. Key differences between types of machine learning
