@@ -87,3 +87,32 @@ In summary:
       
 ## 5. Batch Machine Learning vs Online Machine Learning
    ![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/63ba54b2-8496-4bd4-a5b4-92b312a121be)
+
+   ### Batch Learning : 
+   Batch learning, also known as batch processing or offline learning, is a machine learning approach where the model is trained using the entire dataset at once. In batch learning, the    algorithm processes the entire dataset, computes the gradients, and updates the model parameters all at once. Here's a breakdown of batch learning:
+
+   1. **Data Processing**:
+      - The entire dataset is loaded into memory and processed as a single batch.
+      - This means that all the data points, features, and labels are available to the algorithm simultaneously.
+   
+   2. **Model Training**:
+      - The model is trained on the entire dataset for multiple iterations or epochs.
+      - During each epoch, the algorithm goes through the entire dataset and updates the model parameters based on the computed gradients.
+   
+   3. **Parameter Updates**:
+      - After each epoch, the model's parameters are updated based on the computed gradients of the entire dataset.
+      - This involves adjusting the weights and biases of the model to minimize the loss function, which measures the difference between the predicted outputs and the actual labels.
+   
+   4. **Evaluation**:
+      - Once the model has been trained, it is evaluated on a separate validation dataset to assess its performance.
+      - The model's accuracy, precision, recall, or other relevant metrics are calculated to determine its effectiveness in making predictions on unseen data.
+   
+   **Advantages of Batch Learning**:
+   - **Simplicity**: Batch learning is straightforward to implement and understand, making it suitable for beginners and for scenarios where simplicity is preferred.
+   - **Stability**: The model parameters are updated less frequently compared to online learning, resulting in stable learning and convergence.
+   
+   **Disadvantages of Batch Learning**:
+   - **Memory Intensive**: Batch learning requires loading the entire dataset into memory, which can be challenging for large datasets that may not fit into memory.
+   - **Lack of Adaptability**: Batch learning is unable to adapt to changes in the data distribution without retraining the entire model, making it less suitable for dynamic or evolving datasets.
+   
+   Batch learning is commonly used in scenarios where the entire dataset is available upfront, and real-time predictions are not required. It is well-suited for tasks such as offline data analysis, batch processing of large datasets, and model training in research and development environments.
