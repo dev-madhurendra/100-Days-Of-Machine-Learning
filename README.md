@@ -1,6 +1,7 @@
 ## Table of Contents
 1. [What is Machine Learning?](#1-what-is-machine-learning)
 2. [AI vs ML vs DL](#2-ai-vs-ml-vs-dl)
+3. [Types of Machine Learning](#3-types-of-machine-learning)_
 
 ## 1. What is Machine Learning?
 
@@ -37,3 +38,32 @@ In summary:
 - AI is the broader field focused on creating intelligent systems.
 - ML is a subset of AI that teaches computers to learn from data and make predictions or decisions.
 - DL is a subset of ML that uses deep neural networks to learn from large amounts of data.
+
+## 3. Types Of Machine Learning
+   ![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/179fff85-c819-4118-b14c-197439dfc676)
+
+   1. **Supervised Learning**:
+      - Supervised learning involves training a model on a labeled dataset, where each example in the dataset is paired with an input and an output label.
+      - The model learns to map inputs to outputs based on the examples provided during training.
+      - The goal is for the model to make predictions or decisions when presented with new, unseen data.
+      - Examples:
+        - **Classification**: Predicting a categorical label. For example, classifying emails as spam or not spam based on their content.
+        - **Regression**: Predicting a continuous value. For example, predicting the price of a house based on features like size, location, and number of bedrooms.
+   
+   2. **Unsupervised Learning**:
+      - Unsupervised learning involves training a model on an unlabeled dataset, where the model learns to find patterns or structure in the data without explicit guidance.
+      - The model discovers hidden patterns, groupings, or relationships within the data.
+      - There are no predefined output labels, and the model must find its own way to represent the data.
+      - Examples:
+        - **Clustering**: Grouping similar data points together. For example, clustering customers based on their purchasing behavior to identify market segments.
+        - **Dimensionality Reduction**: Reducing the number of features in a dataset while preserving its important characteristics. For example, reducing the dimensionality of high-dimensional data like images or text.
+   
+   3. **Reinforcement Learning**:
+      - Reinforcement learning involves training an agent to interact with an environment and learn the best actions to take to maximize some notion of cumulative reward.
+      - The agent learns through trial and error, receiving feedback in the form of rewards or penalties for its actions.
+      - The goal is to learn a policy—a mapping from states of the environment to actions—that maximizes the cumulative reward over time.
+      - Examples:
+        - **Game Playing**: Teaching an AI agent to play games like chess or Go by rewarding good moves and penalizing bad ones.
+        - **Robotics**: Training a robot to perform tasks like navigating a maze or manipulating objects in the environment by rewarding successful actions.
+   
+
