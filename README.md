@@ -58,6 +58,7 @@ In summary:
       - Examples:
         - **Clustering**: Grouping similar data points together. For example, clustering customers based on their purchasing behavior to identify market segments.
         - **Dimensionality Reduction**: Reducing the number of features in a dataset while preserving its important characteristics. For example, reducing the dimensionality of high-dimensional data like images or text.
+        - **Association**: [Beer and Diapers: The Impossible Correlation](https://tdwi.org/articles/2016/11/15/beer-and-diapers-impossible-correlation.aspx) Case Study
    
    3. **Reinforcement Learning**:
       - Reinforcement learning involves training an agent to interact with an environment and learn the best actions to take to maximize some notion of cumulative reward.
