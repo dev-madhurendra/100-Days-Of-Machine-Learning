@@ -2,6 +2,7 @@
 1. [What is Machine Learning?](#1-what-is-machine-learning)
 2. [AI vs ML vs DL](#2-ai-vs-ml-vs-dl)
 3. [Types of Machine Learning](#3-types-of-machine-learning)_
+4. [Key differences between types of machine learning](#4-key-differences-between-types-of-machine-learning)
 
 ## 1. What is Machine Learning?
 
@@ -65,5 +66,21 @@ In summary:
       - Examples:
         - **Game Playing**: Teaching an AI agent to play games like chess or Go by rewarding good moves and penalizing bad ones.
         - **Robotics**: Training a robot to perform tasks like navigating a maze or manipulating objects in the environment by rewarding successful actions.
+
+## 4. Key differences between types of machine learning
+
+   | Aspect                     | Supervised Learning                  | Unsupervised Learning                | Reinforcement Learning                  |
+   |----------------------------|--------------------------------------|--------------------------------------|----------------------------------------|
+   | Training Data              | Labeled data                         | Unlabeled data                       | Agent-environment interaction with rewards/punishments |
+   | Learning Process           | Learns from input-output pairs       | Learns patterns or structure in data| Learns from feedback (rewards/penalties) for actions|
+   | Objective                  | Predict or classify new data         | Discover hidden patterns or groupings| Learn optimal actions in an environment|
+   | Examples                   | Classification, Regression           | Clustering, Dimensionality Reduction| Game playing, Robotics                   |
+   | Feedback Mechanism         | Supervised (provided labels)         | None (no explicit guidance)          | Reward/Punishment based on actions       |
+   | Goal                       | Minimize prediction error            | Maximize data representation         | Maximize cumulative reward over time    |
    
+   In summary:
+   - **Supervised Learning** uses labeled data to predict or classify new data based on input-output pairs.
+   - **Unsupervised Learning** learns from unlabeled data to discover hidden patterns or structure in the data.
+   - **Reinforcement Learning** involves learning optimal actions through interaction with an environment, receiving feedback in the form of rewards or penalties.
+      
 
