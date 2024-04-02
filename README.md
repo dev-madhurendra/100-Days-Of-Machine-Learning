@@ -1,4 +1,4 @@
-![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/4bace9f0-1faf-4b68-83da-7d204ca223b5)## Table of Contents
+## Table of Contents
 1. [What is Machine Learning?](#1-what-is-machine-learning)
 2. [AI vs ML vs DL](#2-ai-vs-ml-vs-dl)
 3. [Types of Machine Learning](#3-types-of-machine-learning)_
