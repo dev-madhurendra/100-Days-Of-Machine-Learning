@@ -151,11 +151,4 @@ In summary:
 Online learning is commonly used in scenarios where data arrives continuously or in real-time, and where immediate feedback or predictions are required. It is well-suited for applications such as online advertising, recommendation systems, sensor data analysis, and anomaly detection.
 
 
-| Aspect                    | Batch Machine Learning         | Online Machine Learning       |
-|---------------------------|--------------------------------|-------------------------------|
-| Training Approach         | Trains the model using the entire dataset at once. | Updates the model incrementally with new data points as they become available. |
-| Data Processing           | Processes the entire dataset as a single batch. | Processes data sequentially or in small batches, typically on streaming or continuous data. |
-| Adaptability              | Less adaptable to changes in the data distribution without retraining. | More adaptable to changes in the data distribution over time, as the model continuously updates with new data. |
-| Memory Usage              | Requires loading the entire dataset into memory, memory-intensive. | Can process data incrementally, suitable for handling large datasets or streaming data. |
-| Model Stability           | Stable learning, as model parameters are updated less frequently. | Prone to overfitting and sensitivity to noisy or irrelevant data points. |
-| Real-time Predictions     | Typically used for offline analysis and batch processing. | Suitable for real-time predictions and applications requiring immediate feedback. |
+![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/cd168365-fa29-49d7-8bee-f79d29b64edf)
