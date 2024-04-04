@@ -116,3 +116,46 @@ In summary:
    - **Lack of Adaptability**: Batch learning is unable to adapt to changes in the data distribution without retraining the entire model, making it less suitable for dynamic or evolving datasets.
    
    Batch learning is commonly used in scenarios where the entire dataset is available upfront, and real-time predictions are not required. It is well-suited for tasks such as offline data analysis, batch processing of large datasets, and model training in research and development environments.
+
+### Online Machine Learning
+   Online machine learning, also known as incremental learning or online learning, is a machine learning approach where the model is continuously updated with new data points as they become available. Unlike batch learning, where the model is trained using the entire dataset at once, online learning updates the model incrementally, typically on small batches or individual data points. Here's an overview of online machine learning:
+
+1. **Incremental Updates**:
+   - In online learning, the model is updated continuously as new data points arrive.
+   - Instead of processing the entire dataset at once, the model processes incoming data points sequentially or in small batches.
+
+2. **Training Approach**:
+   - The model learns from new data points by updating its parameters incrementally.
+   - Each new data point or batch of data points is used to adjust the model's parameters, such as weights and biases, to improve its performance.
+
+3. **Adaptability**:
+   - Online learning algorithms are more adaptable to changes in the data distribution over time.
+   - The model can quickly adjust to new patterns or trends in the data without requiring retraining on the entire dataset.
+
+4. **Scalability**:
+   - Online learning is suitable for handling large datasets that may not fit into memory or may be too computationally expensive to process at once.
+   - By processing data incrementally, online learning algorithms can efficiently scale to handle streaming data or continuous data streams.
+
+5. **Real-time Predictions**:
+   - Online learning allows for real-time predictions, as the model can update and make predictions on new data points as they arrive.
+   - This makes online learning suitable for applications that require immediate feedback or decision-making, such as fraud detection, recommendation systems, and online advertising.
+
+**Advantages of Online Learning**:
+- **Adaptability**: Online learning algorithms can adapt to changes in the data distribution over time, making them suitable for dynamic or evolving datasets.
+- **Scalability**: Online learning is efficient for processing large datasets or streaming data, as it can handle data incrementally without requiring the entire dataset to be loaded into memory.
+
+**Disadvantages of Online Learning**:
+- **Complexity**: Online learning algorithms can be more complex to implement compared to batch learning, as they require handling data streams and managing model updates.
+- **Sensitivity to Noise**: Online learning algorithms may be sensitive to noisy or irrelevant data points, requiring careful preprocessing and handling of data.
+
+Online learning is commonly used in scenarios where data arrives continuously or in real-time, and where immediate feedback or predictions are required. It is well-suited for applications such as online advertising, recommendation systems, sensor data analysis, and anomaly detection.
+
+
+| Aspect                    | Batch Machine Learning         | Online Machine Learning       |
+|---------------------------|--------------------------------|-------------------------------|
+| Training Approach         | Trains the model using the entire dataset at once. | Updates the model incrementally with new data points as they become available. |
+| Data Processing           | Processes the entire dataset as a single batch. | Processes data sequentially or in small batches, typically on streaming or continuous data. |
+| Adaptability              | Less adaptable to changes in the data distribution without retraining. | More adaptable to changes in the data distribution over time, as the model continuously updates with new data. |
+| Memory Usage              | Requires loading the entire dataset into memory, memory-intensive. | Can process data incrementally, suitable for handling large datasets or streaming data. |
+| Model Stability           | Stable learning, as model parameters are updated less frequently. | Prone to overfitting and sensitivity to noisy or irrelevant data points. |
+| Real-time Predictions     | Typically used for offline analysis and batch processing. | Suitable for real-time predictions and applications requiring immediate feedback. |
