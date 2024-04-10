@@ -156,6 +156,9 @@ Online learning is commonly used in scenarios where data arrives continuously or
 
 ## 6. Instance vs Model Based Learning
 
+![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/e62014cd-db46-4230-a59e-bdfc10ad2889)
+
+
 Instance-based learning and Model-based learning are two approaches in machine learning that differ in how they make predictions or decisions. Let's explore each:
 
 **Instance-based Learning**:
@@ -210,3 +213,6 @@ Here's an overview:
 - Prone to overfitting if the model is too complex or the training dataset is too small.
 
 In summary, instance-based learning makes predictions based on the similarity of new instances to past instances, while model-based learning builds a model from the training data to make predictions for new instances. Both approaches have their strengths and weaknesses and are suited for different types of problems and datasets.
+
+![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/ef776153-4c1b-43e8-b5b5-d2b0c7bfea6a)
+
