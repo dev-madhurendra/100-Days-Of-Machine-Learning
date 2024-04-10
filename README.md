@@ -4,6 +4,7 @@
 3. [Types of Machine Learning](#3-types-of-machine-learning)_
 4. [Key differences between types of machine learning](#4-key-differences-between-types-of-machine-learning)
 5. [Batch Machine Learning vs Online Machine Learning](#5-batch-machine-learning-vs-online-machine-learning)
+6. [Instance vs Model based learning](#6-instance-vs-model-based-learning)
 
 ## 1. What is Machine Learning?
 
@@ -152,3 +153,60 @@ Online learning is commonly used in scenarios where data arrives continuously or
 
 
 ![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/cd168365-fa29-49d7-8bee-f79d29b64edf)
+
+## 6. Instance vs Model Based Learning
+
+Instance-based learning and Model-based learning are two approaches in machine learning that differ in how they make predictions or decisions. Let's explore each:
+
+**Instance-based Learning**:
+
+Instance-based learning, also known as memory-based learning or lazy learning, makes predictions based on the similarity between new data points and instances from the training dataset. It doesn't explicitly build a model during the training phase. Instead, it stores all training instances and uses them to make predictions for new instances. 
+
+Here's an overview:
+
+1. **Training Phase**:
+   - During training, instance-based learning algorithms simply memorize the training dataset, storing the instances and their corresponding labels.
+
+2. **Prediction Phase**:
+   - When a new instance is presented for prediction, the algorithm identifies the most similar instances from the training dataset (often using distance metrics such as Euclidean distance or cosine similarity).
+   - It then uses these similar instances to make a prediction for the new instance, typically by averaging or voting among the labels of the nearest neighbors.
+
+3. **Examples**:
+   - **K-Nearest Neighbors (KNN)**: A popular instance-based learning algorithm that classifies new instances based on the majority class of their k nearest neighbors in the feature space.
+   - **Case-based Reasoning (CBR)**: A problem-solving approach that retrieves similar past cases from memory and adapts them to solve new problems.
+
+**Advantages of Instance-based Learning**:
+- Simple to implement and understand.
+- Capable of handling complex decision boundaries and non-linear relationships in the data.
+
+**Disadvantages of Instance-based Learning**:
+- Computationally expensive during prediction, especially for large datasets.
+- Sensitive to irrelevant or noisy features in the dataset.
+
+**Model-based Learning**:
+
+Model-based learning involves building a model from the training data that captures the relationship between the input features and the output labels. The model is then used to make predictions for new, unseen data points.
+
+Here's an overview:
+
+1. **Training Phase**:
+   - During training, model-based learning algorithms use the training dataset to learn a model that best fits the data.
+   - This typically involves selecting a parametric form of the model (e.g., linear regression, decision tree, neural network) and optimizing its parameters to minimize a loss function.
+
+2. **Prediction Phase**:
+   - When a new instance is presented for prediction, the trained model is used to make predictions based on its learned parameters.
+   - The model applies the learned relationship between input features and output labels to generate predictions for new instances.
+
+3. **Examples**:
+   - **Linear Regression**: Fits a linear model to the training data to predict continuous output values.
+   - **Decision Trees**: Builds a tree-like structure to classify instances based on a series of decision rules learned from the training data.
+
+**Advantages of Model-based Learning**:
+- Efficient prediction phase, especially for large datasets, as the model is trained upfront.
+- Generalizes well to unseen data if properly trained, capturing underlying patterns in the data.
+
+**Disadvantages of Model-based Learning**:
+- May not capture complex or non-linear relationships in the data without appropriate feature engineering or model complexity.
+- Prone to overfitting if the model is too complex or the training dataset is too small.
+
+In summary, instance-based learning makes predictions based on the similarity of new instances to past instances, while model-based learning builds a model from the training data to make predictions for new instances. Both approaches have their strengths and weaknesses and are suited for different types of problems and datasets.
