@@ -5,6 +5,7 @@
 4. [Key differences between types of machine learning](#4-key-differences-between-types-of-machine-learning)
 5. [Batch Machine Learning vs Online Machine Learning](#5-batch-machine-learning-vs-online-machine-learning)
 6. [Instance vs Model based learning](#6-instance-vs-model-based-learning)
+7. [Machine Learning Development Lifecycle](#7-machine-learning-development-lifecycle)
 
 ## 1. What is Machine Learning?
 
@@ -215,4 +216,47 @@ Here's an overview:
 In summary, instance-based learning makes predictions based on the similarity of new instances to past instances, while model-based learning builds a model from the training data to make predictions for new instances. Both approaches have their strengths and weaknesses and are suited for different types of problems and datasets.
 
 ![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/ef776153-4c1b-43e8-b5b5-d2b0c7bfea6a)
+
+## 7. Machine Learning Development Lifecycle (MLDLC)
+
+![image](https://github.com/dev-madhurendra/100-Days-Of-Machine-Learning/assets/68775519/63bb3914-6363-497c-99d9-d30b15ba970e)
+
+1. **Gathering Data**:
+   - In this initial phase, relevant data is collected from various sources such as databases, APIs, files, or sensors.
+   - The data collected should be comprehensive, representative, and of high quality to ensure the effectiveness of the machine learning model.
+   - Data gathering may involve acquiring labeled or unlabeled datasets, depending on the type of learning (supervised or unsupervised) being performed.
+
+2. **Data Preparation**:
+   - Once the data is collected, it needs to be prepared for analysis and modeling.
+   - This involves tasks such as cleaning the data to handle missing values, outliers, and inconsistencies, as well as formatting and transforming the data into a suitable format for analysis.
+   - Data preparation also includes splitting the dataset into training, validation, and test sets to evaluate the model's performance.
+
+3. **Data Wrangling**:
+   - Data wrangling involves further preprocessing and transforming the data to extract meaningful insights and features.
+   - This may include feature engineering, where new features are created based on existing ones, as well as scaling, normalization, or encoding categorical variables.
+   - The goal of data wrangling is to improve the quality of the data and make it more suitable for model training.
+
+4. **Analyze Data**:
+   - In this phase, exploratory data analysis (EDA) is performed to gain a deeper understanding of the data and identify patterns, trends, and relationships.
+   - Visualization techniques such as histograms, scatter plots, and heatmaps are often used to visualize the data and uncover insights.
+   - The analysis of data helps inform decisions about feature selection, model selection, and potential areas for improvement.
+
+5. **Train the Model**:
+   - Once the data is prepared and analyzed, it's time to train the machine learning model.
+   - This involves selecting an appropriate algorithm or model architecture based on the problem at hand and the characteristics of the data.
+   - The model is trained using the training dataset, where it learns patterns and relationships between the input features and the target variable.
+   - Training involves adjusting the model parameters to minimize a loss function, which measures the difference between the model's predictions and the actual values.
+
+6. **Test the Model**:
+   - After training the model, it's evaluated using the validation or test dataset to assess its performance.
+   - The model's predictions are compared against the true values in the test set, and performance metrics such as accuracy, precision, recall, or F1-score are calculated.
+   - Testing helps ensure that the model generalizes well to unseen data and performs accurately in real-world scenarios.
+
+7. **Deployment**:
+   - Once the model has been trained and tested, it's ready for deployment in production or real-world applications.
+   - Deployment involves integrating the model into existing systems or applications, where it can make predictions or decisions on new, unseen data.
+   - Monitoring and maintenance processes are put in place to continuously monitor the model's performance, address any issues or drift, and update the model as needed to ensure its effectiveness over time.
+
+The Machine Learning Lifecycle is iterative and may involve multiple iterations of model training, testing, and deployment as new data becomes available or business requirements evolve. Collaboration between data scientists, engineers, domain experts, and stakeholders is essential throughout the lifecycle to ensure the successful development and deployment of machine learning solutions.
+
 
