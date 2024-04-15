@@ -5,7 +5,7 @@
 4. [Key differences between types of machine learning](#4-key-differences-between-types-of-machine-learning)
 5. [Batch Machine Learning vs Online Machine Learning](#5-batch-machine-learning-vs-online-machine-learning)
 6. [Instance vs Model based learning](#6-instance-vs-model-based-learning)
-7. [Machine Learning Development Lifecycle](#7-machine-learning-development-lifecycle)
+7. [Machine Learning Development Lifecycle](#7-machine-learning-development-lifecycle-mldlc)
 
 ## 1. What is Machine Learning?
 
