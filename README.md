@@ -6,7 +6,7 @@
 5. [Batch Machine Learning vs Online Machine Learning](#5-batch-machine-learning-vs-online-machine-learning)
 6. [Instance vs Model based learning](#6-instance-vs-model-based-learning)
 7. [Machine Learning Development Lifecycle](#7-machine-learning-development-lifecycle-mldlc)
-8. [What is Tensor?](#8-what-is-tensor)
+8. [What is a Tensor?](#8-what-is-a-tensor)
 
 ## 1. What is Machine Learning?
 
