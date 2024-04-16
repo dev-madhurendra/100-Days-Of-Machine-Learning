@@ -260,7 +260,7 @@ In summary, instance-based learning makes predictions based on the similarity of
 
 The Machine Learning Lifecycle is iterative and may involve multiple iterations of model training, testing, and deployment as new data becomes available or business requirements evolve. Collaboration between data scientists, engineers, domain experts, and stakeholders is essential throughout the lifecycle to ensure the successful development and deployment of machine learning solutions.
 
-### What is a Tensor?
+## What is a Tensor?
 
 A tensor is a mathematical object representing a multi-dimensional array of numerical values. In the context of machine learning and deep learning, tensors are fundamental data structures used to represent and manipulate data. Tensors can have different numbers of dimensions, known as ranks, ranging from scalars (rank 0 tensors) to higher-dimensional arrays.
 
