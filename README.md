@@ -7,7 +7,7 @@
 6. [Instance vs Model based learning](#6-instance-vs-model-based-learning)
 7. [Machine Learning Development Lifecycle](#7-machine-learning-development-lifecycle-mldlc)
 8. [What is a Tensor?](#8-what-is-a-tensor)
-9. [Rank, Axis & Shape](#9-rank-axis-&-shape)
+9. [Rank, Axis & Shape](#9-rank-axis--shape)
 
 ## 1. What is Machine Learning?
 
