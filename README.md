@@ -7,6 +7,7 @@
 6. [Instance vs Model based learning](#6-instance-vs-model-based-learning)
 7. [Machine Learning Development Lifecycle](#7-machine-learning-development-lifecycle-mldlc)
 8. [What is a Tensor?](#8-what-is-a-tensor)
+9. [Rank, Axis 7 Shape](#9-rank-axis-shape)
 
 ## 1. What is Machine Learning?
 
@@ -344,5 +345,30 @@ print("Shape of the tensor:", nd_tensor.shape)
 ```
 
 This function takes a tuple `shape` as input, specifying the dimensions of the desired tensor. It then generates random values to populate the tensor using NumPy's `np.random.rand` function. Finally, it returns the created n-dimensional tensor.
+
+## 9. Rank, Axis & Shape
+
+1. **Rank**:
+   - The rank of a tensor refers to the number of dimensions it has.
+   - For example, a scalar has rank 0, a vector has rank 1, a matrix has rank 2, and so on.
+   - In general, the rank of a tensor corresponds to the number of indices required to access its elements.
+
+2. **Axis**:
+   - Each dimension of a tensor is often referred to as an axis.
+   - For example, in a 2D tensor (matrix), the rows and columns correspond to the first and second axes, respectively.
+   - Axis indices are zero-based, meaning the first axis has index 0, the second axis has index 1, and so on.
+
+3. **Shape**:
+   - The shape of a tensor describes the size of each dimension.
+   - It is represented as a tuple of integers, where each integer specifies the size of the corresponding dimension.
+   - For example, a tensor with shape `(2, 3)` has 2 rows and 3 columns.
+   - The length of the shape tuple corresponds to the rank of the tensor.
+
+In summary:
+- **Rank**: Number of dimensions of a tensor.
+- **Axis**: Each dimension of a tensor.
+- **Shape**: Size of each dimension of a tensor, represented as a tuple.
+
+Understanding these concepts is crucial for working with tensors in machine learning and deep learning, as they provide insights into the structure and organization of data within tensors.
 
 
